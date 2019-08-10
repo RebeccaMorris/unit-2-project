@@ -45,6 +45,7 @@ nav ul {
 nav a {
   text-decoration: none;
   font-weight: bold;
+  color: #4a4a4a;
 }
 
 nav a:visited {
@@ -105,12 +106,12 @@ main {
   background-color: #fff;
 }
 
-.portfolio p {
+#portfolio p {
   width: 80%;
   margin: 0 auto;
 }
 
-.portfolio section {
+#portfolio section {
   padding-bottom: 30px;
 }
 
@@ -145,7 +146,7 @@ footer a {
   padding: 20px;
 }
 
-.contact {
+#contact {
   max-width: 560px;
   margin: 0 auto;
 }
@@ -226,17 +227,17 @@ hr {
     padding-bottom: 35px;
   }
 
-  .portfolio section {
+  #portfolio section {
     float: left;
     width: 49%;
     margin-right: 2%;
   }
 
-  .portfolio section:nth-of-type(even) {
+  #portfolio section:nth-of-type(even) {
     margin-right: 0;
   }
 
-  .contact {
+  #contact {
     width: 67%;
     margin: 0 auto;
     font-size: 1.1rem;
@@ -302,16 +303,16 @@ hr {
     padding: 0 30px 30px;
   }
 
-  .portfolio section:nth-of-type(n) {
+  #portfolio section:nth-of-type(n) {
     width: 32%;
     margin-right: 2%;
   }
 
-  .portfolio section:nth-child(3n+4) {
+  #portfolio section:nth-child(3n+4) {
     margin-right: 0;
   }
 
-  .contact {
+  #contact {
     width: 55%;
     font-size: 1.2rem;
   }
