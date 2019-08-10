@@ -53,6 +53,7 @@ nav a:visited {
 
 .wrapper {
   width: 90%;
+  max-width: 1024px;
   margin: 0 auto;
 }
 
@@ -225,7 +226,7 @@ hr {
     margin-right: 2%;
   }
 
-  .portfolio section:nth-child(even) {
+  .portfolio section:nth-of-type(even) {
     margin-right: 0;
   }
 
@@ -234,7 +235,7 @@ hr {
     margin: 0 auto;
   }
 
-  .contact p {
+  .contact {
     font-size: 1.1rem;
   }
 
@@ -266,4 +267,48 @@ hr {
     clear: both;
   }
 
+}
+
+@media screen and (min-width: 1024px) {
+
+  header h1 {
+    float: left;
+    width: 50%;
+    text-align: left;
+  }
+
+  .main-nav {
+    float: right;
+    width: 50%;
+    margin: 18px 0 5px;
+    text-align: right;
+  }
+
+  .intro p {
+    font-size: 1.2rem;
+  }
+
+  main {
+    background-color: #fafafa;
+  }
+
+  main .wrapper {
+    box-sizing: content-box;
+    background-color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .portfolio section:nth-of-type(n) {
+    width: 32%;
+    margin-right: 2%;
+  }
+
+  .portfolio section:nth-child(3n+4) {
+    margin-right: 0;
+  }
+
+  .contact {
+    font-size: 1.2rem;
+  }
 }
