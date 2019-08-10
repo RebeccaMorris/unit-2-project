@@ -144,6 +144,11 @@ footer a {
   padding: 20px;
 }
 
+.contact {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
 .contact-info a {
   display: inline-block;
   padding: 7px 10px;
@@ -231,11 +236,8 @@ hr {
   }
 
   .contact {
-    width: 60%;
+    width: 67%;
     margin: 0 auto;
-  }
-
-  .contact {
     font-size: 1.1rem;
   }
 
@@ -309,6 +311,7 @@ hr {
   }
 
   .contact {
+    width: 55%;
     font-size: 1.2rem;
   }
 }
