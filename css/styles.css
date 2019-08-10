@@ -96,7 +96,6 @@ header p {
   line-height: 40px;
 }
 
-
 /***********************/
 /* Main                */
 /***********************/
@@ -206,6 +205,12 @@ hr {
   .main-nav a {
     width: auto;
     padding: 0 20px;
+  }
+
+  .main-nav a:hover {
+    border-radius: 5px;
+    background-color: #4a4a4a;
+    color: #fafafa;
   }
 
   .intro {
