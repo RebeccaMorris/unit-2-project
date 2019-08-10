@@ -101,6 +101,7 @@ header p {
 /***********************/
 
 main {
+  padding-bottom: 15px;
   background-color: #fff;
 }
 
@@ -222,7 +223,7 @@ hr {
   }
 
   main {
-    padding-bottom: 10px;
+    padding-bottom: 35px;
   }
 
   .portfolio section {
@@ -292,13 +293,13 @@ hr {
 
   main {
     background-color: #fafafa;
+    padding-bottom: 0;
   }
 
   main .wrapper {
     box-sizing: content-box;
     background-color: #fff;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0 30px 30px;
   }
 
   .portfolio section:nth-of-type(n) {
