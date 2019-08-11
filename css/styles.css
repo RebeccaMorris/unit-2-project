@@ -17,7 +17,8 @@ body {
 
 h1 {
   font-size: 1.7rem;
-  margin: 30px 0;
+  margin: 0;
+  padding-top: 30px;
 }
 
 h2 {
@@ -45,11 +46,6 @@ nav ul {
 nav a {
   text-decoration: none;
   font-weight: bold;
-  color: #4a4a4a;
-}
-
-nav a:visited {
-  color: #4a4a4a;
 }
 
 .wrapper {
@@ -75,6 +71,15 @@ header p {
   color: #7f7f7f;
 }
 
+.nav-bar {
+  background-color: #333333;
+  color: #fafafa;
+}
+
+.nav-bar a {
+  color: #fafafa;
+}
+
 .main-nav {
   margin-bottom: 60px;
 }
@@ -86,7 +91,6 @@ header p {
 
 .main-nav li {
   margin-bottom: 6px;
-  background-color: #fff;
 }
 
 .main-nav a {
@@ -209,11 +213,12 @@ hr {
 
   .main-nav a:hover {
     border-radius: 5px;
-    background-color: #4a4a4a;
-    color: #fafafa;
+    background-color: #fafafa;
+    color: #333333;
   }
 
   .intro {
+    margin-top: 50px;
     margin-bottom: 10px;
   }
 
