@@ -72,7 +72,7 @@ header p {
 }
 
 .nav-bar {
-  background-color: #333333;
+  background-color: #333;
   color: #fafafa;
 }
 
@@ -100,6 +100,7 @@ header p {
   line-height: 40px;
 }
 
+
 /***********************/
 /* Main                */
 /***********************/
@@ -116,6 +117,76 @@ main {
 
 #portfolio section {
   padding-bottom: 30px;
+}
+
+.skills {
+  clear: both;
+}
+
+.skills ul {
+  list-style-type: none;
+  margin: 10px 0;
+  padding-left: 0;
+}
+
+.skills li {
+  height: 45px;
+  margin-bottom: 10px;
+  background-color: #eee;
+  text-align: left;
+  color: #fafafa;
+}
+
+.skills span {
+  float: left;
+  clear: both;
+  width: 7.5rem;
+  height: 45px;
+  padding: 10px;
+  background-color: #333;
+  text-align: center;
+  color: #fafafa;
+}
+
+.skills .progress {
+  float: left;
+  height: 45px;
+  padding: 11px;
+  background-color: #424242;
+  text-align: right;
+  font-size: .9rem;
+}
+
+.skills .html {
+  width: calc(.95 * (100% - 7.5rem));
+}
+
+.skills .css {
+  width: calc(.9 * (100% - 7.5rem));
+}
+
+.skills .sass {
+  width: calc(.8 * (100% - 7.5rem));
+}
+
+.skills .js {
+  width: calc(.7 * (100% - 7.5rem));
+}
+
+.skills .react {
+  width: calc(.6 * (100% - 7.5rem));
+}
+
+.skills .jquery {
+  width: calc(.65 * (100% - 7.5rem));
+}
+
+.skills .git {
+  width: calc(.7 * (100% - 7.5rem));
+}
+
+.skills .ps {
+  width: calc(.5 * (100% - 7.5rem));
 }
 
 
@@ -214,7 +285,7 @@ hr {
   .main-nav a:hover {
     border-radius: 5px;
     background-color: #fafafa;
-    color: #333333;
+    color: #333;
   }
 
   .intro {
@@ -244,6 +315,16 @@ hr {
   }
 
   #portfolio section:nth-of-type(even) {
+    margin-right: 0;
+  }
+
+  .skills li {
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+  }
+
+  .skills li:nth-of-type(even) {
     margin-right: 0;
   }
 
