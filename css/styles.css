@@ -119,17 +119,17 @@ main {
   padding-bottom: 30px;
 }
 
-.skills {
+#skills {
   clear: both;
 }
 
-.skills ul {
+#skills ul {
   list-style-type: none;
   margin: 10px 0;
   padding-left: 0;
 }
 
-.skills li {
+#skills li {
   height: 45px;
   margin-bottom: 10px;
   background-color: #eee;
@@ -137,7 +137,7 @@ main {
   color: #fafafa;
 }
 
-.skills span {
+#skills span {
   float: left;
   clear: both;
   width: 7.5rem;
@@ -148,7 +148,7 @@ main {
   color: #fafafa;
 }
 
-.skills .progress {
+#skills .progress {
   float: left;
   height: 45px;
   padding: 11px;
@@ -157,35 +157,35 @@ main {
   font-size: .9rem;
 }
 
-.skills .html {
+#skills .html {
   width: calc(.95 * (100% - 7.5rem));
 }
 
-.skills .css {
+#skills .css {
   width: calc(.9 * (100% - 7.5rem));
 }
 
-.skills .sass {
+#skills .sass {
   width: calc(.8 * (100% - 7.5rem));
 }
 
-.skills .js {
+#skills .js {
   width: calc(.7 * (100% - 7.5rem));
 }
 
-.skills .react {
+#skills .react {
   width: calc(.6 * (100% - 7.5rem));
 }
 
-.skills .jquery {
+#skills .jquery {
   width: calc(.65 * (100% - 7.5rem));
 }
 
-.skills .git {
+#skills .git {
   width: calc(.7 * (100% - 7.5rem));
 }
 
-.skills .ps {
+#skills .ps {
   width: calc(.5 * (100% - 7.5rem));
 }
 
@@ -318,13 +318,13 @@ hr {
     margin-right: 0;
   }
 
-  .skills li {
+  #skills li {
     float: left;
     width: 49%;
     margin-right: 2%;
   }
 
-  .skills li:nth-of-type(even) {
+  #skills li:nth-of-type(even) {
     margin-right: 0;
   }
 
